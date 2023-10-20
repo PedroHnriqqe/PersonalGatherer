@@ -1,0 +1,91 @@
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.exe
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.deps.json
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.runtimeconfig.json
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.dll
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.pdb
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.AssemblyReference.cache
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\CardCollection.g.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Deckbuilding.g.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\NewCard.g.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_Content.g.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_MarkupCompile.cache
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_MarkupCompile.lref
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\CardCollection.baml
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Deckbuilding.baml
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\NewCard.baml
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.g.resources
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.AssemblyInfoInputs.cache
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.AssemblyInfo.cs
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.dll
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\refint\Cards_Database.dll
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.pdb
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.genruntimeconfig.cache
+C:\Users\Pedro Predro\Desktop\Files\Coding\C#\MTG_CARDDB\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\ref\Cards_Database.dll
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.exe
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.deps.json
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.runtimeconfig.json
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.dll
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.pdb
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.AssemblyReference.cache
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\CardCollection.g.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Deckbuilding.g.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\NewCard.g.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_Content.g.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_MarkupCompile.cache
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_MarkupCompile.lref
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\CardCollection.baml
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Deckbuilding.baml
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\NewCard.baml
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.g.resources
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.AssemblyInfoInputs.cache
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.AssemblyInfo.cs
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.CoreCompileInputs.cache
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.dll
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\refint\Cards_Database.dll
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.pdb
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.genruntimeconfig.cache
+C:\Users\Pedrenrique\Desktop\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\ref\Cards_Database.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.exe
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.deps.json
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.runtimeconfig.json
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\Cards_Database.pdb
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.AssemblyReference.cache
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\CardCollection.g.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Deckbuilding.g.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\NewCard.g.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\App.g.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_Content.g.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_MarkupCompile.cache
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database_MarkupCompile.lref
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\CardCollection.baml
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Deckbuilding.baml
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\MainWindow.baml
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\NewCard.baml
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.g.resources
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.AssemblyInfoInputs.cache
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.AssemblyInfo.cs
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.CoreCompileInputs.cache
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\refint\Cards_Database.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.pdb
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.genruntimeconfig.cache
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\ref\Cards_Database.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Cards_Database\obj\Debug\net7.0-windows\Cards_Database.csproj.CopyComplete

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>MOM_ICO.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AddBtn.png" />
+    <None Remove="DeleteBtn.png" />
+    <None Remove="searchBtn.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MOM_ICO.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AddBtn.png" />
+    <Resource Include="DeleteBtn.png" />
+    <Resource Include="searchBtn.png" />
+  </ItemGroup>
+
+</Project>

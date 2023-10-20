@@ -1,0 +1,105 @@
+﻿<Page x:Class="Cards_Database.Deckbuilding"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cards_Database"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="800"
+      Title="Deckbuilding">
+     
+
+    <ScrollViewer>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+             
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" >
+            <Button Content="Home" Margin="5" ></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock Width="Auto" HorizontalAlignment="Center" FontSize="18">Deck Name:</TextBlock>
+            <TextBox x:Name="DeckNameInput" HorizontalAlignment="Center" Width="400"></TextBox>
+            <TextBlock Width="Auto" HorizontalAlignment="Center" FontSize="18">Format:</TextBlock>
+            <ComboBox x:Name="DeckFormatInput"  Width="400">
+                <ComboBoxItem>Standard</ComboBoxItem>
+                <ComboBoxItem>Pauper</ComboBoxItem>
+                <ComboBoxItem>Paupermander</ComboBoxItem>
+                <ComboBoxItem>Modern</ComboBoxItem>
+                <ComboBoxItem>Pioneer</ComboBoxItem>
+                <ComboBoxItem>Commander</ComboBoxItem>
+            </ComboBox>
+                <TextBlock Width="Auto" HorizontalAlignment="Center" FontSize="18">Your cards:</TextBlock>
+                <DataGrid Width="400" Height="250"  x:Name="DataGrid" HorizontalContentAlignment="Center" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Card Name" Binding="{Binding CardName }" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Mana Value" Binding="{Binding ManaValue }" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Quantity" Binding="{Binding CardQuantity}" Width="*"></DataGridTextColumn>
+                        <!-- TO DO: Create the columns: "Mana quantity", "Is creature"-->
+                       
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox Width="250" Height="20" x:Name="DataCardName" ></TextBox>
+                <TextBox Width="35" Height="20" x:Name="CardValue" PreviewTextInput="AcceptOnlyNumbers"></TextBox>
+                <ComboBox x:Name="CardQtd" Height="20" HorizontalAlignment="Center">
+                    <ComboBoxItem>1</ComboBoxItem>
+                    <ComboBoxItem>2</ComboBoxItem>
+                    <ComboBoxItem>3</ComboBoxItem>
+                    <ComboBoxItem>4</ComboBoxItem>
+                </ComboBox>
+                <Button x:Name="AddCardBtn" Margin="7,1,1,1" Width="35" Height="28" Click="AddCardBtn_Click" HorizontalAlignment="Center">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Image x:Name="Image" Source="/AddBtn.png"/>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="Image" Property="Opacity" Value="0.5"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="DeleteCardBtn"  Margin="7,1,1,1" Width="35" Height="28"   HorizontalAlignment="Center" Click="DeleteCardBtn_Click">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Image x:Name="Image" Source="/DeleteBtn.png"/>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="Image" Property="Opacity" Value="0.5"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                 
+            </Button>
+            
+         
+               
+               
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal"   HorizontalAlignment="Center" Grid.Row="5">
+                <!--TO DO: Deck created is exported to TXT -->
+                <Button Margin="-8,1,12,1" FontSize="15" Click="ExportTxt_Btn">Export to .txt</Button>
+                <!--TO DO: Create a excel file that shows the mana curve  -->
+                <Button Margin="1,1,1,1" FontSize="15" >Export to Excel</Button>
+        </StackPanel>
+             
+        
+    </Grid>
+    </ScrollViewer>
+</Page>
