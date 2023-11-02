@@ -15,6 +15,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 using System.Text.RegularExpressions;
+using OfficeOpenXml;
+using OfficeOpenXml.Style;
+using Microsoft.Win32;
 
 namespace Cards_Database
 {
@@ -29,6 +32,9 @@ namespace Cards_Database
             InitializeComponent();
             myCards = new ObservableCollection<CardDeckBuilding>();
             DataGrid.ItemsSource = myCards;
+
+            //EEPLUS License
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
         }
 
@@ -83,6 +89,49 @@ namespace Cards_Database
                 MessageBox.Show("Please provide the deck details!");
             }
          
+        }
+
+        private void ExportToExcel()
+        {
+            using (var package = new ExcelPackage())
+            {
+
+                //Create the worksheet and set its name
+                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Your Deck");
+
+                //Set the header row
+                int rowIndex = 1;
+                worksheet.Cells[rowIndex, 1].Value = "Card Name";
+                worksheet.Cells[rowIndex, 2].Value = "Mana Value";
+                worksheet.Cells[rowIndex, 3].Value = "Quantity";
+                rowIndex++;
+
+                //Populate the worksheet with DataGrid data
+                foreach(var item in DataGrid.Items)
+                {
+                    if(item is CardDeckBuilding data)
+                    {
+                        worksheet.Cells[rowIndex, 1].Value = data.CardName;
+                        worksheet.Cells[rowIndex, 2].Value = data.ManaValue;
+                        worksheet.Cells[rowIndex, 3].Value = data.CardQuantity;
+                        rowIndex++;
+                    }
+                }
+
+                //AutoFit columns for better readability
+                worksheet.Cells.AutoFitColumns();
+
+                //Save the Excel package to a file
+                var saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "Excel Files(*.xlsx)|*.xlsx";
+                if(saveFileDialog.ShowDialog()==true)
+                {
+                    using(var stream = saveFileDialog.OpenFile())
+                    {
+                        package.SaveAs(stream);
+                    }
+                }
+            }
         }
          
      
@@ -176,6 +225,12 @@ namespace Cards_Database
             {
                 MessageBox.Show("Please  check if row is selected" + ex.Message);
             }
+        }
+
+         
+        private void excelBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ExportToExcel();
         }
     }
 }

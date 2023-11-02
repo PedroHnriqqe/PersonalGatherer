@@ -38,5 +38,6 @@
             <Button x:Name="InsertImage" Width="200"  Content="Insert Image" Click="InsertImage_Click"/>
         </StackPanel>
 
+        <Frame x:Name="newCardFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

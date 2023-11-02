@@ -49,64 +49,64 @@
 <!--First Row -->
             <Image Width="Auto" Grid.Row="1"> 
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card1.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card1.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="1" Grid.Column="1">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card2.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card2.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="1" Grid.Column="2">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card3.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card3.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="1" Grid.Column="3">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card4.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card4.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <!--Second Row -->
             <Image Width="Auto" Grid.Row="2">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card5.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card5.jpg"></BitmapImage>
                 </Image.Source> 
             </Image>
             <Image Width="Auto" Grid.Row="2" Grid.Column="1">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card6.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card6.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="2" Grid.Column="2">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card7.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card7.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="2" Grid.Column="3">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card8.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card8.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <!--Third Row -->
             <Image Width="Auto" Grid.Row="3" Grid.Column="0">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card9.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card9.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="3" Grid.Column="1">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card10.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card10.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="3" Grid.Column="2">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card11.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card11.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
             <Image Width="Auto" Grid.Row="3" Grid.Column="3">
                 <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\Card12.jpg"></BitmapImage>
+                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\files\Coding_Projects\PersonalGatherer-main-20231101T205132Z-001\PersonalGatherer-main\Cards_Database\Media\Card12.jpg"></BitmapImage>
                 </Image.Source>
             </Image>
         </Grid>

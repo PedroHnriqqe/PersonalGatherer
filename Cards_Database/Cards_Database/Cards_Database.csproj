@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="AddBtn.png" />
     <None Remove="DeleteBtn.png" />
+    <None Remove="RefreshBtn.png" />
     <None Remove="searchBtn.png" />
   </ItemGroup>
 
@@ -19,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
     <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
   </ItemGroup>
@@ -30,6 +32,7 @@
   <ItemGroup>
     <Resource Include="AddBtn.png" />
     <Resource Include="DeleteBtn.png" />
+    <Resource Include="RefreshBtn.png" />
     <Resource Include="searchBtn.png" />
   </ItemGroup>
 

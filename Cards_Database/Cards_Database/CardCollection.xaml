@@ -7,21 +7,26 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="CardCollection">
+
+    <Page.Resources>
+        <local:ByteArrayToImageConverter x:Key="ByteArrayToImageConverter"/>
+    </Page.Resources>
+
     <ScrollViewer>
+       
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
+                 
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <!--Navbar row -->
                 <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
+                
+               
+                 
             </Grid.RowDefinitions>
 
 
@@ -29,83 +34,33 @@
             <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
                 <Button Content="New Card" Margin="5" Click="AddCard_Click" ></Button>
                 <Button Content="Build deck" Margin="5" Click="DeckBuilding_Click"></Button>
-                <TextBox Text="Search" VerticalAlignment="Center" Margin="5,0,0,0" Width="100"/>
-                <Button Margin="5" Width="25" HorizontalAlignment="Center">
+                <Button x:Name="refreshBtn" Margin="5" Width="25" HorizontalAlignment="Center" Click="RefreshBtn_Click">
                     <Button.Style>
                         <Style/>
                     </Button.Style>
                     <Button.Background>
-                        <ImageBrush ImageSource="/searchBtn.png" Stretch="Uniform" TileMode="None"/>
+                        <ImageBrush ImageSource="/RefreshBtn.png" Stretch="Uniform" TileMode="None"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
-            <!--First Row -->
-            <Image Width="Auto" Grid.Row="1">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card01.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="1" Grid.Column="1">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card02.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="1" Grid.Column="2">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card03.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="1" Grid.Column="3">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card04.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <!--Second Row -->
-            <Image Width="Auto" Grid.Row="2">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card05.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="2" Grid.Column="1">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card06.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="2" Grid.Column="2">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card07.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="2" Grid.Column="3">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card08.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <!--Third Row -->
-            <Image Width="Auto" Grid.Row="3" Grid.Column="0">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card09.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="3" Grid.Column="1">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card10.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="3" Grid.Column="2">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card11.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            <Image Width="Auto" Grid.Row="3" Grid.Column="3">
-                <Image.Source>
-                    <BitmapImage DecodePixelWidth="672" DecodePixelHeight="936" UriSource="D:\coding\C#\Projects\PersonalGatherer-main\PersonalGatherer-main\Cards_Database\Media\collectionPageMedia\card12.jpg"></BitmapImage>
-                </Image.Source>
-            </Image>
-            
-            
-            <Frame x:Name="CardCollectionFrame" NavigationUIVisibility="Hidden"/>
+
   
+            <ItemsControl x:Name="CardPanel" Grid.Row="1">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="4" IsItemsHost="True"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Image Source="{Binding CardImg, Converter={StaticResource ByteArrayToImageConverter}}"  />
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+
 
         </Grid>
 

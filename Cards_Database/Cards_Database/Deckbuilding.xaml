@@ -96,7 +96,7 @@
                 <!--TO DO: Deck created is exported to TXT -->
                 <Button Margin="-8,1,12,1" FontSize="15" Click="ExportTxt_Btn">Export to .txt</Button>
                 <!--TO DO: Create a excel file that shows the mana curve  -->
-                <Button Margin="1,1,1,1" FontSize="15" >Export to Excel</Button>
+                <Button x:Name="excelBtn" Margin="1,1,1,1" FontSize="15" Click="excelBtn_Click" >Export to Excel</Button>
         </StackPanel>
              
         
