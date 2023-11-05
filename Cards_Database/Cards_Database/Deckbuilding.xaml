@@ -21,13 +21,40 @@
              
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
+
+        
+            <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" >
-            <Button Content="Home" Margin="5" ></Button>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Grid.Column="0">
+
+
+            <!--Navbar -->
+            <StackPanel x:Name="Navbar" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
+                <Button Content="New Card" Margin="5" Click="AddCard_Click" ></Button>
+                <Button Content="Build deck" Margin="5" ></Button>
+                
+                <Button x:Name="homeBtn" Margin="5" Width="25" HorizontalAlignment="Center" Click="homeBtn_Click">
+                    <!--<Button.Background>
+                        <ImageBrush ImageSource="/homeBtn.png"/>
+                    </Button.Background>-->
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Image x:Name="HomeBtn" Source="/homeBtn.png"/>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="HomeBtn" Property="Opacity" Value="0.5"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                   
+
+                </Button>
+            </StackPanel>
+
+            <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+        
+            <StackPanel Grid.Row="1" Grid.Column="0">
             <TextBlock Width="Auto" HorizontalAlignment="Center" FontSize="18">Deck Name:</TextBlock>
             <TextBox x:Name="DeckNameInput" HorizontalAlignment="Center" Width="400"></TextBox>
             <TextBlock Width="Auto" HorizontalAlignment="Center" FontSize="18">Format:</TextBlock>

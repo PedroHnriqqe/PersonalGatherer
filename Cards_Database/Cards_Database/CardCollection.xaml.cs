@@ -131,11 +131,26 @@ namespace Cards_Database
 
         private void DeckBuilding_Click(object sender, RoutedEventArgs e)
         {
-            Deckbuilding newDeckBuilding = new Deckbuilding();
-            NavigationService.Navigate(newDeckBuilding);
+
+            Deckbuilding deckbuilding = new Deckbuilding();
+
+            deckbuilding.RemoveButtons();
+
+            MainFrame.Content = deckbuilding;
+
+            refreshBtn.Visibility = Visibility.Collapsed;
+          
+
         }
 
-      
+  
+        private void homeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+
+            
+        }
     }
 
 

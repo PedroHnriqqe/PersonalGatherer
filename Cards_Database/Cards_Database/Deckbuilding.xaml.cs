@@ -133,9 +133,16 @@ namespace Cards_Database
                 }
             }
         }
-         
-     
 
+
+        //Remove old buttons when navigating
+        public void RemoveButtons()
+        {
+            if (Navbar != null)
+            {
+                Navbar.Visibility = Visibility.Collapsed;
+            }
+        }
 
 
         private void ExportTxt_Btn(object sender, RoutedEventArgs e)
@@ -231,6 +238,20 @@ namespace Cards_Database
         private void excelBtn_Click(object sender, RoutedEventArgs e)
         {
             ExportToExcel();
+        }
+        private void AddCard_Click(object sender, RoutedEventArgs e)
+        {
+            NewCard newCard = new NewCard();
+            newCard.Show();
+        }
+        
+
+        private void homeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+
+
         }
     }
 }

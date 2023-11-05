@@ -25,26 +25,13 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            
-        
+
  
+
             <!--Navbar -->
             <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
                 <Button Content="My collection" Margin="5"  Click="CollectionBtn_Click"></Button>
                 <Button Content="Build deck" Margin="5" Click="DeckBuilder_Click" ></Button>
-                <TextBox VerticalAlignment="Center" Margin="5,0,0,0" Width="100"/>
-                <Button Margin="5" Width="25" HorizontalAlignment="Center">
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Image x:Name="SearchImage" Source="/searchBtn.png"/>
-                            <ControlTemplate.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter TargetName="SearchImage" Property="Opacity" Value="0.5"/>
-                                </Trigger>
-                            </ControlTemplate.Triggers>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
             </StackPanel>
 <!--First Row -->
             <Image Width="Auto" Grid.Row="1"> 

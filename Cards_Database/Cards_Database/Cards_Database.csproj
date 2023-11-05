@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="AddBtn.png" />
     <None Remove="DeleteBtn.png" />
+    <None Remove="homeBtn.png" />
     <None Remove="RefreshBtn.png" />
     <None Remove="searchBtn.png" />
   </ItemGroup>
@@ -32,6 +33,7 @@
   <ItemGroup>
     <Resource Include="AddBtn.png" />
     <Resource Include="DeleteBtn.png" />
+    <Resource Include="homeBtn.png" />
     <Resource Include="RefreshBtn.png" />
     <Resource Include="searchBtn.png" />
   </ItemGroup>
